@@ -1,0 +1,45 @@
+[shell]
+program = "wsl"
+args = ["--cd ~"]
+
+[window]
+position = { x = 550, y = 235 }
+decorations = "None"
+padding = { x = 25, y = 25 }
+opacity = 0.6
+blur = true # future proofing if i ever get a mac or go plasma
+title = "dope"
+decorations_theme_variant = "Dark"
+
+[font]
+normal = { family = "JetbrainsMono Nerd Font", style = "Bold" }
+size = 12
+offset = { x = 1, y = 2 }
+builtin_box_drawing = false
+
+[colors.primary]
+foreground = "#ebdbb2"
+background = "#282828"
+
+[colors.normal]
+black = "#282828"
+red = "#cc241d"
+green = "#98971a"
+yellow = "#d79921"
+blue = "#458588"
+magenta = "#b16286"
+cyan = "#689d6a"
+white = "#a89984"
+
+[bell]
+animation = "Ease"
+duration = 25
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+unfocused_hollow = false
+
+[mouse]
+hide_when_typing = true
