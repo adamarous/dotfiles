@@ -1,12 +1,13 @@
-[shell]
-program = "wsl"
-args = ["--cd ~"]
+# windows only
+#[shell]
+#program = "wsl"
+#args = ["--cd ~"]
 
 [window]
 position = { x = 550, y = 235 }
 decorations = "None"
 padding = { x = 25, y = 25 }
-opacity = 0.6
+#opacity = 0.6
 blur = true # future proofing if i ever get a mac or go plasma
 title = "dope"
 decorations_theme_variant = "Dark"
@@ -15,7 +16,7 @@ decorations_theme_variant = "Dark"
 normal = { family = "JetbrainsMono Nerd Font", style = "Bold" }
 size = 12
 offset = { x = 1, y = 2 }
-builtin_box_drawing = false
+builtin_box_drawing = true
 
 [colors.primary]
 foreground = "#ebdbb2"
@@ -30,10 +31,6 @@ blue = "#458588"
 magenta = "#b16286"
 cyan = "#689d6a"
 white = "#a89984"
-
-[bell]
-animation = "Ease"
-duration = 25
 
 [selection]
 save_to_clipboard = true
