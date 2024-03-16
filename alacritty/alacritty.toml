@@ -4,11 +4,12 @@
 #args = ["--cd ~"]
 
 [window]
-position = { x = 550, y = 235 }
+#position = { x = 550, y = 235 } # pending understanding in linux
 decorations = "None"
 padding = { x = 25, y = 25 }
-#opacity = 0.6
+opacity = 0.8
 blur = true # future proofing if i ever get a mac or go plasma
+startup_mode = "Maximized"
 title = "dope"
 decorations_theme_variant = "Dark"
 
@@ -18,6 +19,7 @@ size = 12
 offset = { x = 1, y = 2 }
 builtin_box_drawing = true
 
+# gruvbox theme
 [colors.primary]
 foreground = "#ebdbb2"
 background = "#282828"
