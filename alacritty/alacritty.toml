@@ -7,9 +7,9 @@
 #position = { x = 550, y = 235 } # pending understanding in linux
 decorations = "None"
 padding = { x = 25, y = 25 }
-opacity = 0.8
+#opacity = 0.8
 blur = true # future proofing if i ever get a mac or go plasma
-startup_mode = "Maximized"
+startup_mode = "Fullscreen"
 title = "dope"
 decorations_theme_variant = "Dark"
 
@@ -20,19 +20,52 @@ offset = { x = 1, y = 2 }
 builtin_box_drawing = true
 
 # gruvbox theme
+#[colors.primary]
+#foreground = "#ebdbb2"
+#background = "#282828"
+
+#[colors.normal]
+#black = "#282828"
+#red = "#cc241d"
+#green = "#98971a"
+#yellow = "#d79921"
+#blue = "#458588"
+#magenta = "#b16286"
+#cyan = "#689d6a"
+#white = "#a89984"
+
+# tokyo night moon
 [colors.primary]
-foreground = "#ebdbb2"
-background = "#282828"
+background = '#1a1b26'
+foreground = '#c0caf5'
 
 [colors.normal]
-black = "#282828"
-red = "#cc241d"
-green = "#98971a"
-yellow = "#d79921"
-blue = "#458588"
-magenta = "#b16286"
-cyan = "#689d6a"
-white = "#a89984"
+black = '#15161e'
+red = '#f7768e'
+green = '#9ece6a'
+yellow = '#e0af68'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#a9b1d6'
+
+[colors.bright]
+black = '#414868'
+red = '#f7768e'
+green = '#9ece6a'
+yellow = '#e0af68'
+blue = '#7aa2f7'
+magenta = '#bb9af7'
+cyan = '#7dcfff'
+white = '#c0caf5'
+
+[[colors.indexed_colors]]
+index = 16
+color = '#ff9e64'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#db4b4b'
 
 [selection]
 save_to_clipboard = true
